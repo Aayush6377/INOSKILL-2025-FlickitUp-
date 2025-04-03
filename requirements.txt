@@ -1,0 +1,14 @@
+Flask
+opencv-python
+numpy
+mediapipe
+tensorflow
+cvzone
+scikit-learn
+pillow
+pickle
+pynput
+gunicorn
+sqlite3
+pyautogui
+threading
