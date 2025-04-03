@@ -42,5 +42,5 @@ A Flask-based **gesture recognition system** using OpenCV, TensorFlow, and HandT
 
 ## **👨‍💻 Team Members**  
 - [Aayush Kukreja](https://github.com/Aayush6377)  
-- [Sankit Singhal]()  
-- [Sushil Gupta]()  
+- [Sankit Singhal](https://github.com/SankitSinghal)  
+- [Sushil Gupta](https://github.com/SGgithub001)  
