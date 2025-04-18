@@ -23,7 +23,7 @@ A Flask-based **gesture recognition system** using OpenCV, TensorFlow, and HandT
 1. **Clone the Repository**  
    ```sh
    git clone https://github.com/Aayush6377/INOSKILL-2025-FlickitUp-.git
-   cd gesture-recognition
+   cd FlickitUp
 
 2. **Install Dependencies**  
    ```sh
