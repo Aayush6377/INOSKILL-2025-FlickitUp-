@@ -35,10 +35,10 @@ A Flask-based **gesture recognition system** using OpenCV, TensorFlow, and HandT
 
 ## **📌 Screenshots**  
 ### Home Page  
-![Home Page](./screenshots/ss1.png)  
+![Home Page](Documentation/screenshots/ss1.png)  
 
 ### Gesture Recognition in Action  
-![Gesture Recognition](./screenshots/ss2.png)  
+![Gesture Recognition](Documentation/screenshots/ss2.png)  
 
 ## **👨‍💻 Team Members**  
 - [Aayush Kukreja](https://github.com/Aayush6377)  
