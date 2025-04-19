@@ -5,6 +5,8 @@ import pickle
 from flask import Blueprint, render_template, Response, jsonify
 from cvzone.HandTrackingModule import HandDetector
 from collections import deque
+from .execute_action import execute_gesture_action
+from .mouse import process_frame
 
 bp = Blueprint('recognition', __name__)
 
@@ -71,6 +73,12 @@ def generate_frames():
                 stable_prediction = "Unknown"
 
             cv2.putText(img, f"Gesture: {stable_prediction}", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+
+            print(stable_prediction)
+            if stable_prediction in ["victory_sign","victory_with_thumb"]:
+                process_frame(img)
+            else:
+                execute_gesture_action(stable_prediction)
 
         ret, buffer = cv2.imencode('.jpg', img)
         frame = buffer.tobytes()

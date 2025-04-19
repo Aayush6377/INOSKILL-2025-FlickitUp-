@@ -8,3 +8,5 @@ scikit-learn==1.6.1
 pillow==10.2.0
 pynput==1.8.1
 gunicorn==23.0.0
+PyAutoGUI==0.9.54
+keyboard==0.13.5
